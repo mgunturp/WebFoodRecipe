@@ -1,0 +1,668 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(font/Poppins-Regular.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.kotak-hero1 {
+  width: 360px;
+  height: 750px;
+  background: #efc81a;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar {
+  background: transparent;
+  height: 85px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #2e266f;
+}
+.nav-menu a:visited {
+  text-decoration: underline;
+}
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.nav-menuright {
+  display: flex;
+  align-items: center;
+}
+.nav-menuright a {
+  color: #fff5ec;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.hero-container {
+  display: flex;
+  position: relative;
+  height: 470px;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+
+.gambar-hero {
+  position: relative;
+  margin: 20px;
+}
+
+.hero-kiri {
+  align-self: center;
+}
+
+.hero-kiri h1 {
+  color: #2e266f;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 50px;
+  width: 400px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #efefef;
+  width: 450px;
+  height: 40px;
+  border-radius: 12px;
+  margin-top: -30px;
+  padding: 10px;
+  backdrop-filter: blur(4px) saturate(100%);
+}
+
+.search-bar input {
+  padding-left: 11px;
+  border-radius: 10px;
+  border-color: transparent;
+  flex: 1;
+  background-color: transparent;
+  text-align: left;
+  padding: 10px;
+}
+
+.search-bar input:focus {
+  outline: none !important;
+}
+
+::placeholder {
+  color: #b6b6b6;
+  opacity: 0.6;
+}
+
+.search-bar img {
+  width: 18px;
+  height: 18px;
+  margin-left: 30px;
+}
+
+/* 
+
+                                BATAS CONTAINER 1
+
+
+*/
+
+.container-2 {
+  width: 100%;
+  position: relative;
+}
+
+.bagian-atas {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.bagian-atas .kotak-kiri {
+  width: 25px;
+  height: 80px;
+  background: yellow;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.bagian-atas .atas-kiri {
+  margin-top: 80px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.hero-2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: -50px;
+}
+
+.box-kiri {
+  width: 50%;
+  margin: 100px;
+}
+
+.box-kanan {
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.gambar2 {
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+.kotak-gambar2 {
+  position: absolute;
+  border: solid;
+  border-color: #efc81a;
+  width: 390px;
+  height: 430px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.circle {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 80px;
+  margin-top: 50px;
+  margin-left: -80px;
+  gap: 20px;
+}
+
+.circle-1 {
+  width: 11.799px;
+  height: 11.799px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.p-kanan {
+  color: #3F3A3A;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.garis {
+  border: 1px solid #6f6a40;
+  width: 50px;
+  margin-top: -23px;
+}
+
+.p2-kanan {
+  color: #3F3A3A;
+  font-family: Poppins;
+  font-size: 18px;
+
+}
+
+.box-kanan button {
+  width: 150px;
+  height: 40px;
+  background: #efc81a;
+  color: #fff5ec;
+  border: none;
+  border-radius: 8px;
+}
+
+/*
+
+                                BATAS CONTAINER 2
+
+*/
+
+.container-3 {
+  width: 100%;
+  position: relative;
+}
+
+.bagian-atas1 {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.bagian-atas1 .kotak-kiri {
+  width: 25px;
+  height: 80px;
+  background: yellow;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+.bagian-atas1 .atas-kiri {
+  margin-top: 80px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.hero-3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.box-kiri1 {
+  width: 50%;
+  margin-left: 100px;
+}
+
+.box-kanan1 {
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.gambar3 {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.box-kiri1 .kotak-gambar {
+  position: absolute;
+  background: #efc81a;
+  width: 360px;
+  height: 450px;
+  left: 0;
+  top: 0;
+}
+
+.box-kanan1 .p-kanan {
+  color: #3F3A3A;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.box-kanan1 .garis {
+  border: 1px solid #6f6a40;
+  width: 50px;
+  margin-top: -23px;
+}
+
+.box-kanan1 .p2-kanan {
+  color: #3F3A3A;
+  font-size: 18px;
+}
+
+.box-kanan1 button {
+  width: 150px;
+  height: 40px;
+  background: #efc81a;
+  color: #fff5ec;
+  border: none;
+  border-radius: 8px;
+}
+
+/* 
+
+                                    BATAS CONTAINER 3
+
+*/
+
+.container-4 {
+  width: 100%;
+  position: relative;
+}
+
+.container-4 .bagian-atas2 {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.bagian-atas2 .kotak-kiri {
+  width: 25px;
+  height: 80px;
+  background: yellow;
+  margin-left: 130px;
+}
+
+.bagian-atas2 .atas-kiri {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 62px;
+}
+
+.hero-4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  position: relative;
+}
+
+.hero-4 img {
+  width: 100%;
+}
+
+.container-4 .hero-4 .card-1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+.container-4 .hero-4 .card-1 p {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: -95px;
+  width: 60px;
+  color: #3F3A3A;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container-4 .hero-4 .card-2 p {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: -75px;
+  width: 120px;
+  color: #3F3A3A;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+/*                              BATAS CONTAINER 4 */
+
+footer {
+  height: 300px;
+  background: #efc81a;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+footer .footer h1 {
+  color: #2e266f;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 400;
+  /* margin-left: 20px; */
+}
+
+.footer h2 {
+  color: #707070;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+}
+
+footer .footer ul {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  list-style: none;
+  /* background: red; */
+  padding: 0;
+  bottom: 0;
+
+  margin-top: 100px;
+}
+
+footer .footer ul li {
+  color: #707070;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+footer .arkdemy {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  bottom: 30px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #000;
+}
+
+/* 
+                                BATAS LAYOUT DESKTOP 
+*/
+
+/* 
+                                        MEDIA QUERY
+ */
+
+/* MOBILE */
+
+@media screen and (max-width: 430px) {
+
+  .navbar{
+      justify-content: center;
+  }
+.navbar .nav-menu{
+  gap: 30px;
+}
+  
+  .nav-menuright{
+    display: none;
+  }
+
+  .kotak-hero1 {
+    width: 100%;
+    height: 100%;
+
+  }
+  .nav-menu {
+    gap: 20px;
+  }
+
+  .gambar-hero {
+    display: none;
+  }
+
+  .hero-container .hero-kiri h1 {
+    width: 370px;
+    line-height: 60px;
+    margin-left: -29px;
+    font-size: 40px;
+  }
+  .search-bar {
+    width: 330px;
+    margin-left: -25px;
+    margin-top: 20px;
+  }
+
+  /*
+                                          CONTAINER 2
+  */
+
+  .bagian-atas{
+    margin-top: 30px;
+  }
+
+  .bagian-atas .kotak-kiri {
+    margin-left: 20px;
+    margin-top: 50px;
+    
+  }
+
+  .hero-2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box-kiri {
+    margin: 0px;
+    margin-left: -100px;
+  }
+
+  .gambar2 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .kotak-gambar2 {
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+  }
+
+  .box-kanan {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-left: 40px;
+  }
+
+  .p-kanan {
+    font-size: 25px;
+  }
+
+  .p2-kanan {
+    font-size: 16px;
+  }
+
+  .box-kanan button {
+    margin-top: 30px;
+  }
+
+  /*
+                                            CONTAINER 3
+  */
+
+  .bagian-atas1{
+    margin-bottom: 50px;
+  }
+  
+  .bagian-atas1 .kotak-kiri {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .hero-3 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box-kiri1 {
+    margin: 0px;
+    margin-left: -100px;
+  }
+
+  .gambar3 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .box-kiri1 .kotak-gambar {
+    width: 300px;
+    height: 300px;
+  }
+
+  .box-kanan1 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding-left: 40px;
+  }
+
+  .box-kanan1 .p-kanan  {
+    font-size: 25px;
+  }
+
+  .box-kanan1 .p2-kanan{
+    font-size: 16px;
+  }
+  
+  .box-kanan1 button {
+    margin-top: 30px;
+  }
+
+/* 
+                                       CONTAINER 4
+*/
+
+
+.bagian-atas2{
+  margin-bottom: 50px;
+}
+
+.bagian-atas2 .kotak-kiri {
+  margin-left: 20px;
+  /* margin-top: 50px; */
+}
+
+
+.arkdemy{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Regular.ttf);
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+  }
+  
+  input[type="text"],
+  select {
+    width: 426px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EFC81A;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"],
+  select {
+    width: 426px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EFC81A;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="password"],
+  select {
+    width: 426px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #EFC81A;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 426px;
+    background-color: #efc81a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #d6b318;
+  }
+  
+  .h3-hero{
+    color: #EFC81A;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  
+  
+  .h4-hero{
+    color: #8692A6;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px; 
+  }
+  
+  h2{
+    color: #EFC81A;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  
+  h5{
+    font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  
+  a{
+    color: #EFC81A;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
