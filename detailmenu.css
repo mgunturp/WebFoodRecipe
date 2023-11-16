@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Regular.ttf);
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+  }
+                          /* navbar */
+  .navbar {
+    background: transparent;
+    height: 85px;
+    padding: 0 10%;
+    position: relative;
+    margin-left: -40px;
+  }
+  
+  .navbar a{
+    color: #2E266F;
+  }
+  
+  .navbar a:visited {
+    color: #392f88;
+    text-decoration: underline;
+  }
+  
+  .navbar a:hover {
+    color: #392f88;
+    text-decoration: underline;
+  }
+  
+  .rectangle{
+    width: 5px;
+    height: 60px;
+    background: #EFC81A;
+  }
+  
+  .logout{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .username{
+    text-decoration: none;
+    color: #000;
+  }
+                          /* navbar end */
