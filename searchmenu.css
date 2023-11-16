@@ -82,30 +82,6 @@ h1{
   color: aliceblue;
 }
 
-/* #btn-1{
-  border-radius: 6px;
-  background-color:#EFC81A;
-  width: 100px;
-  color: #EFEFEF;
-}
-#btn-2{
-  border-radius: 6px;
-  background-color:#EFC81A;
-  width: 100px;
-  color: #EFEFEF;
-}
-#btn-3{
-  border-radius: 6px;
-background: #00E092;
-width: 130px;
-color: #EFEFEF;
-}
-#btn-4{
-  border-radius: 6px;
-background: #00E092;
-width: 100px;
-color: #EFEFEF;
-} */
 
                 /* hero end */
 
@@ -134,7 +110,7 @@ background: #EFC81A;
 }
 .pagination a:hover {
 
-  color: #EFC81A;
+  color: #000;
   border-color: #2E266F;
 }
 
